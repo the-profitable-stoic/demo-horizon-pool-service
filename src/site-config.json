@@ -1,0 +1,512 @@
+{
+  "business": {
+    "name": "Horizon Pool Service",
+    "phone": "555-poo-r90",
+    "category": "pool-service",
+    "city": "Miami",
+    "state": "FL"
+  },
+  "design": {
+    "preset": {
+      "id": "pool-service-trust-navy",
+      "categoryGroup": "pool-service",
+      "name": "Trust Navy",
+      "recipeFile": "pool-service/trust-navy.astro",
+      "colors": {
+        "primary": "#0891B2",
+        "primaryDark": "#164E63",
+        "primaryLight": "#c1e4ec",
+        "secondary": "#077b97",
+        "accent": "#06B6D4",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#0891B2",
+        "surface": "#F4F6F8",
+        "text": "#1A1A2E",
+        "textLight": "#4A5568",
+        "textOnDark": "#FFFFFF",
+        "border": "#E5E7EB"
+      },
+      "typography": {
+        "headingFont": "Nunito Sans",
+        "headingWeight": "700",
+        "bodyFont": "Lato",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.25"
+      },
+      "shape": {
+        "borderRadius": "6px",
+        "buttonRadius": "6px",
+        "cardRadius": "10px",
+        "shadowStyle": "soft"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "dark",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "pool-service/trust-navy"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Miami's Trusted Pool Care Experts",
+      "heroSubline": "Horizon Pool Service keeps South Florida pools pristine year-round. Serving Miami-Dade and Broward with tailored maintenance for our climate.",
+      "aboutTitle": "Built for South Florida Pools",
+      "aboutText": [
+        "Founded in 2012, Horizon Pool Service grew from a single truck servicing Brickell condos to a 20+ team covering Miami-Dade and Broward. We've seen every pool challenge our tropical climate can create.",
+        "Our approach combines weekly maintenance routines with preventative care to combat salt air corrosion, intense UV damage, and seasonal debris from hurricanes. We stock only commercial-grade equipment built for coastal conditions.",
+        "As Miami residents ourselves, we're committed to preserving our waterways. All cleaning agents are EPA-approved to protect Biscayne Bay while keeping your pool safe."
+      ],
+      "valueProps": [
+        {
+          "title": "Climate-Adapted Care",
+          "description": "Our service plans account for Miami's salt air, heavy rains, and year-round use to prevent equipment wear."
+        },
+        {
+          "title": "Local Materials Knowledge",
+          "description": "We specify corrosion-resistant parts that withstand our humidity, from pump seals to tile grout."
+        },
+        {
+          "title": "Hurricane Prep Included",
+          "description": "Seasonal protocol protects equipment before storms and expedites post-storm cleanups."
+        },
+        {
+          "title": "Community Trusted",
+          "description": "Recommended by 4/5 clients across 800+ completed projects since 2012."
+        }
+      ],
+      "ctaHeadline": "Ready for Stress-Free Pool Care?",
+      "ctaSubline": "Schedule your consultation today. Same-week availability for most Miami neighborhoods."
+    },
+    "services": [
+      {
+        "slug": "weekly-maintenance",
+        "name": "Weekly Maintenance",
+        "shortDescription": "Comprehensive care plan to combat Miami's harsh pool conditions.",
+        "description": "Our weekly service goes beyond basic skimming to address South Florida's unique challenges. Each visit includes brushing salt deposits from waterline tiles - a critical step Miami pool owners often overlook that prevents permanent etching. We test and balance water chemistry specifically for our mineral-rich municipal supplies and adjust for higher evaporation rates during dry seasons.\n\nFilter cleaning alternates between cartridge rinses and DE grid inspections based on seasonal debris loads, with extra attention during mango season when organic matter spikes. All equipment gets inspected for salt air corrosion at hose connections and pump seals. Monthly service reports track gradual changes in chemical demand and equipment performance.",
+        "process": [
+          "Step 1: Full perimeter inspection for tile damage, coping cracks, and deck settling common in our sandy soil",
+          "Step 2: Salt/chlorine generator cell cleaning to prevent mineral buildup from hard water",
+          "Step 3: Basket emptying with debris documentation to identify seasonal patterns",
+          "Step 4: Equipment diagnostics with voltage/amperage checks to catch early motor wear"
+        ],
+        "benefits": [
+          "Prevents costly salt corrosion damage to heaters and automation systems",
+          "Maintains water clarity despite heavy rainfall runoff",
+          "Extends equipment lifespan in harsh coastal conditions",
+          "Reduces chemical costs through precise seasonal adjustments"
+        ],
+        "faq": [
+          {
+            "question": "How does your weekly service differ from national chains?",
+            "answer": "We customize chemical balances for Miami's water table and test for salt creep that damages equipment. National providers often use generic protocols ill-suited for coastal environments."
+          },
+          {
+            "question": "Do you handle hurricane prep and cleanup?",
+            "Answer": "Yes, our seasonal protocol includes pre-storm equipment protection and priority post-storm service to prevent flood damage and debris-related equipment failures."
+          }
+        ]
+      },
+      {
+        "slug": "equipment-repair",
+        "name": "Pool Equipment Repair",
+        "shortDescription": "Specialized repairs for Miami's corrosive salt air environment.",
+        "description": "Miami's salty humidity demands different repair approaches than inland pools. We stock marine-grade pump seals and corrosion-resistant bonding wire specifically for coastal installations. Our technicians are trained to identify early signs of salt creep in automation systems before catastrophic failures occur.\n\nCommon repairs include replacing rusted heater headers on older systems, rebuilding pumps with stainless steel hardware, and upgrading control panels to NEMA 4X-rated enclosures that resist moisture intrusion. For waterfront properties, we install sacrificial anodes on ladders and lights to prevent galvanic corrosion where saltwater meets freshwater. All repairs include a corrosion audit of adjacent equipment vulnerable to similar failures.",
+        "process": [
+          "Step 1: Diagnostic testing under load to identify voltage drops from corroded connections",
+          "Step 2: Salt exposure assessment of all metallic components",
+          "Step 3: Marine-grade part installation with dielectric grease applications",
+          "Step 4: Post-repair water chemistry adjustment to prevent recurrence"
+        ],
+        "benefits": [
+          "Longer-lasting repairs using materials formulated for coastal climates",
+          "Preventative upgrades reduce future breakdowns",
+          "Same-day service for critical failures during peak season",
+          "Transparent pricing with old parts returned to clients"
+        ],
+        "faq": [
+          {
+            "question": "Why do my pool pumps fail faster than my neighbor's inland system?",
+            "answer": "Salt air accelerates corrosion on electrical components and bearing surfaces. We install coated motors and sealed bearings that typically last 2-3x longer in Miami."
+          },
+          {
+            "question": "Can you repair older systems no longer under warranty?",
+            "Answer": "Yes, we specialize in keeping vintage equipment running with custom-fabricated parts when replacements are unavailable, particularly for historic Coral Gables homes."
+          }
+        ]
+      },
+      {
+        "slug": "tile-cleaning",
+        "name": "Salt Deposit Removal",
+        "shortDescription": "Specialized treatment for Miami's notorious waterline scaling.",
+        "description": "The combination of Miami's hard water and evaporation rates creates rapid scale buildup that standard acid washes can't address. Our three-stage process first softens mineral deposits with a descaling agent formulated for South Florida's calcium-rich water table. After dwell time, technicians hand-scrub with non-abrasive pads to preserve delicate glass tile common in luxury condos.\n\nFor historic Art Deco pools with original terrazzo coping, we use pH-neutral cleaners to prevent damage to vintage surfaces. Post-cleaning, we apply a nano-sealer that reduces future buildup by 60-70% while maintaining tile breathability. This service is particularly critical for waterfront properties where salt spray accelerates scaling between cleanings.",
+        "process": [
+          "Step 1: Water testing to identify mineral composition and customize treatment",
+          "Step 2: Targeted application of descaling gel to vertical surfaces",
+          "Step 3: Gentle agitation with rotary brushes for textured surfaces",
+          "Step 4: Protective sealer application and post-treatment balancing"
+        ],
+        "benefits": [
+          "Restores tile without damaging historic or specialty surfaces",
+          "Reduces frequency between needed cleanings",
+          "Prevents permanent etching from prolonged scale contact",
+          "Includes complimentary water chemistry adjustment"
+        ],
+        "faq": [
+          {
+            "question": "How often should Brickell high-rises schedule this service?",
+            "answer": "Most waterfront towers need quarterly treatments due to wind-driven salt spray. Inland properties typically schedule biannually."
+          },
+          {
+            "question": "Will this damage my colored grout?",
+            "Answer": "No, our process is safe for all cementitious and epoxy grouts when properly applied. We test a small area first on vintage pools."
+          }
+        ]
+      },
+      {
+        "slug": "automation-upgrades",
+        "name": "Smart Pool Upgrades",
+        "shortDescription": "Modern controls adapted for Miami's climate challenges.",
+        "description": "New automation systems can dramatically reduce maintenance headaches when properly specified for our environment. We install only marine-rated control panels that withstand Miami's humidity without internal condensation. All outdoor equipment gets upgraded to wireless models to eliminate corrosion-prone wiring runs through wet decks.\n\nFor seasonal residents, we integrate water level monitoring that alerts for overflow during summer storms and auto-adjusts chemical dosing when rain dilutes pool water. Hurricane mode automatically lowers water levels and secures equipment covers when tropical storm warnings are issued. Our most popular package includes salt cell integration that self-adjusts output based on real-time salinity readings - critical for Miami pools where heavy rainfall frequently dilutes salt concentrations.",
+        "process": [
+          "Step 1: Site evaluation for optimal equipment placement considering sun exposure and storm surge risk",
+          "Step 2: Surge protector installation on all electrical feeds",
+          "Step 3: Control programming with custom presets for Miami seasons",
+          "Step 4: Owner training with multilingual instructions"
+        ],
+        "benefits": [
+          "Reduces chemical waste through precise automated dosing",
+          "Prevents storm damage with weather-responsive protocols",
+          "Allows remote monitoring for snowbirds",
+          "Lifetime support on all installed systems"
+        ],
+        "faq": [
+          {
+            "question": "How do these systems hold up in hurricane conditions?",
+            "answer": "We install NEMA 4X enclosures rated for horizontal rain and temporary submersion, with all critical components mounted above FEMA flood elevation guidelines."
+          },
+          {
+            "question": "Can I integrate with my existing equipment?",
+            "Answer": "Most cases allow partial upgrades while preserving functional pumps and filters. We'll provide compatibility reports before any work begins."
+          }
+        ]
+      },
+      {
+        "slug": "leak-detection",
+        "name": "Leak Diagnosis",
+        "shortDescription": "Advanced detection for Miami's high water table issues.",
+        "description": "Miami's porous limestone substrate and high water table create unique leak challenges. Our specialists use a combination of pressure testing, electronic listening devices, and dye tracing to pinpoint leaks without unnecessary deck demolition. We're particularly experienced with common South Florida failure points: deteriorated main drain gaskets in older pools, cracked return lines where shifting soil stresses pipes, and skimmer leaks from decades of UV degradation.\n\nFor properties near the water table, we conduct hydrostatic testing to determine if perceived 'leaks' are actually groundwater infiltration through shell cracks. Reports include repair priority ratings - some minor weeping is expected in our environment and may not justify disruptive repairs. When excavation is needed, we coordinate with local utilities to mark lines through Sunshine 811 before any digging.",
+        "process": [
+          "Step 1: Water loss measurement over 24-48 hours to confirm actual leakage rate",
+          "Step 2: Pressure testing of individual plumbing lines",
+          "Step 3: Structural inspection with endoscope cameras where accessible",
+          "Step 4: Detailed report with repair options and cost projections"
+        ],
+        "benefits": [
+          "Non-invasive methods preserve expensive deck finishes",
+          "Accurate diagnosis prevents unnecessary repairs",
+          "Includes assessment of surrounding structural integrity",
+          "All findings documented for insurance claims"
+        ],
+        "faq": [
+          {
+            "question": "Why does my pool lose more water in winter?",
+            "answer": "Cold fronts increase evaporation rates despite cooler air temps. We'll distinguish normal loss from actual leaks through controlled testing."
+          },
+          {
+            "question": "Can you detect leaks under concrete decking?",
+            "Answer": "Yes, our electronic amplification equipment often locates subsurface leaks without destructive testing. Excavation is last-resort."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Mariana C.",
+        "rating": 5,
+        "service": "Weekly Maintenance",
+        "text": "After three companies failed to keep our Wynwood pool clear during mango season, Horizon solved it with custom filter cycles and enzyme treatments. Two years without a single algae bloom despite all the organic debris from our trees.",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "James T.",
+        "rating": 5,
+        "service": "Equipment Repair",
+        "text": "Our original 1998 pump died during July heat. Horizon had it rebuilt with upgraded seals within 24 hours while every big-box store quoted 3-week waits for replacements. Technician explained how to extend the new motor's life in salt air.",
+        "date": "2025-01-22"
+      },
+      {
+        "name": "Lisa P.",
+        "rating": 5,
+        "service": "Salt Deposit Removal",
+        "text": "The waterline on our Biscayne Point home looked permanently ruined until Horizon's treatment restored the original glass tile. They even matched a missing piece from the 1960s installation using their vendor network.",
+        "date": "2024-11-30"
+      },
+      {
+        "name": "Carlos R.",
+        "rating": 5,
+        "service": "Smart Pool Upgrades",
+        "text": "Best investment for our snowbird lifestyle. The system texts me when chemical levels need attention or when heavy rain requires adjustment. Horizon programmed it to prepare automatically for our monthly absences.",
+        "date": "2024-10-18"
+      },
+      {
+        "name": "Sophia K.",
+        "rating": 5,
+        "service": "Leak Diagnosis",
+        "text": "Saved us $15k in unnecessary deck repairs. What we thought was a plumbing leak turned out to be groundwater infiltration during king tides. Their detailed report helped our insurance claim for the structural remediation.",
+        "date": "2024-09-05"
+      },
+      {
+        "name": "Thomas V.",
+        "rating": 5,
+        "service": "Weekly Maintenance",
+        "text": "As a Coral Gables historic board member, I appreciate how Horizon maintains our 1926 pool without compromising authenticity. They source period-appropriate replacement parts and use gentle methods on the original terrazzo.",
+        "date": "2024-08-12"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Miami Pool Service | Horizon Pool Care Experts",
+        "description": "Professional pool maintenance and repair services tailored for Miami's salt air and tropical climate. Serving Miami-Dade since 2012."
+      },
+      "about": {
+        "title": "About Horizon Pool Service | Miami Pool Specialists",
+        "description": "Learn how our locally-adapted approach keeps Miami pools pristine despite salt air, heavy rains, and year-round use demands."
+      },
+      "services": {
+        "title": "Miami Pool Services | Climate-Tailored Maintenance",
+        "description": "Specialized pool care services designed for South Florida's unique challenges including hurricane prep and salt corrosion prevention."
+      },
+      "contact": {
+        "title": "Contact Horizon Pool Service | Miami Pool Pros",
+        "description": "Schedule service or get answers about your Miami pool. Same-week availability for most neighborhoods in our service area."
+      },
+      "reviews": {
+        "title": "Horizon Pool Service Reviews | Miami Clients",
+        "description": "See why Miami pool owners consistently rate Horizon Pool Service 5 stars for tropical climate-adapted maintenance and repairs."
+      },
+      "service-areas": {
+        "title": "Miami Pool Service Areas | Horizon Coverage",
+        "description": "Serving Miami-Dade and Broward with specialized pool care for coastal homes, high-rises, and historic properties throughout South Florida."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Fort Lauderdale",
+        "slug": "fort-lauderdale-fl",
+        "state": "FL",
+        "content": "Horizon Pool Service proudly serves Fort Lauderdale, a vibrant city known for its 1960s-70s waterfront homes and bustling canal system. Our team specializes in maintaining pools in this humid coastal climate, ensuring crystal-clear water and proper chemical balance year-round. Whether you own a historic waterfront property or a modern oasis, we provide tailored pool cleaning, repairs, and equipment upgrades to meet your needs.",
+        "localContext": "Fort Lauderdale's waterfront homes require specialized pool care due to salt air exposure and high humidity.",
+        "nearbyAreas": [
+          "Davie",
+          "Plantation",
+          "Wilton Manors"
+        ]
+      },
+      {
+        "city": "Coral Springs",
+        "slug": "coral-springs-fl",
+        "state": "FL",
+        "content": "Horizon Pool Service is your trusted provider in Coral Springs, a family-friendly community with 1980s-90s planned neighborhoods. We understand the unique needs of pools in this area, from standard maintenance to energy-efficient upgrades. Our services include weekly cleaning, filter replacements, and leak detection to keep your pool pristine in the year-round heat.",
+        "localContext": "Coral Springs' planned communities often feature shared pool facilities and require consistent upkeep.",
+        "nearbyAreas": [
+          "Parkland",
+          "Tamarac",
+          "Margate"
+        ]
+      },
+      {
+        "city": "Pembroke Pines",
+        "slug": "pembroke-pines-fl",
+        "state": "FL",
+        "content": "Serving Pembroke Pines since day one, Horizon Pool Service specializes in maintaining pools in 1990s planned developments. Our team handles everything from routine cleaning to major repairs, ensuring your pool stays in top condition despite the constant humidity. We also offer eco-friendly solutions to reduce water and chemical usage in this environmentally conscious community.",
+        "localContext": "Pembroke Pines' newer developments often feature modern pool designs with advanced filtration systems.",
+        "nearbyAreas": [
+          "Miramar",
+          "Hollywood",
+          "Weston"
+        ]
+      },
+      {
+        "city": "Boca Raton",
+        "slug": "boca-raton-fl",
+        "state": "FL",
+        "content": "Horizon Pool Service delivers premium pool maintenance for Boca Raton's luxury waterfront estates. Our expert team provides white-glove service, including high-end equipment installations, custom tile cleaning, and pH balancing for saltwater pools. We understand the demands of upscale properties and offer discreet, reliable service to keep your oasis perfect.",
+        "localContext": "Boca Raton's luxury pools often feature intricate designs and require meticulous care.",
+        "nearbyAreas": [
+          "Delray Beach",
+          "Deerfield Beach",
+          "Highland Beach"
+        ]
+      },
+      {
+        "city": "West Palm Beach",
+        "slug": "west-palm-beach-fl",
+        "state": "FL",
+        "content": "Horizon Pool Service has extensive experience maintaining pools in West Palm Beach's historic 1920s-50s homes. We specialize in preserving vintage pool features while incorporating modern efficiency upgrades. From resurfacing classic plaster pools to repairing antique tile work, we honor the character of your property while ensuring safe, swimmable conditions.",
+        "localContext": "West Palm Beach's historic districts require pool specialists familiar with older construction methods.",
+        "nearbyAreas": [
+          "Palm Beach",
+          "Lake Worth Beach",
+          "Riviera Beach"
+        ]
+      },
+      {
+        "city": "Miami",
+        "slug": "miami-fl",
+        "state": "FL",
+        "content": "As Miami's premier pool service provider, Horizon Pool Service handles everything from high-rise condominium pools to lavish backyard retreats. Our bilingual team excels at maintaining pools in Miami's intense tropical climate, preventing algae blooms and equipment corrosion. We offer 24/7 emergency repairs and smart pool technology installations for the ultimate convenience.",
+        "localContext": "Miami's diverse architecture ranges from Art Deco to ultra-modern, each with unique pool requirements.",
+        "nearbyAreas": [
+          "Miami Beach",
+          "Coral Gables",
+          "Doral"
+        ]
+      },
+      {
+        "city": "Davie",
+        "slug": "davie-fl",
+        "state": "FL",
+        "content": "Horizon Pool Service provides comprehensive pool care for Davie's equestrian-themed communities and rural estates. We're experts at maintaining pools surrounded by natural vegetation, preventing debris accumulation while preserving water chemistry. Our services include hayward pump repairs, deck pressure washing, and seasonal opening/closing.",
+        "localContext": "Davie's country-style properties often feature larger pools with natural surroundings.",
+        "nearbyAreas": [
+          "Plantation",
+          "Weston",
+          "Cooper City"
+        ]
+      },
+      {
+        "city": "Deerfield Beach",
+        "slug": "deerfield-beach-fl",
+        "state": "FL",
+        "content": "Horizon Pool Service keeps Deerfield Beach pools in perfect condition despite the salty ocean air and intense sun exposure. We specialize in corrosion-resistant equipment installations and saltwater pool conversions. Our monthly maintenance packages include thorough cleaning, chemical balancing, and equipment inspections to extend your pool's lifespan.",
+        "localContext": "Deerfield Beach's coastal location demands extra protection against saltwater damage.",
+        "nearbyAreas": [
+          "Boca Raton",
+          "Pompano Beach",
+          "Lighthouse Point"
+        ]
+      },
+      {
+        "city": "Sunrise",
+        "slug": "sunrise-fl",
+        "state": "FL",
+        "content": "Horizon Pool Service expertly maintains pools throughout Sunrise's active adult communities and family neighborhoods. We understand the importance of safety features for multi-generational households and offer automated pool covers, ADA-compliant lifts, and child-proof fencing installations. Our weekly maintenance prevents issues before they arise in Florida's challenging climate.",
+        "localContext": "Sunrise's diverse demographics require adaptable pool service solutions.",
+        "nearbyAreas": [
+          "Plantation",
+          "Tamarac",
+          "Lauderhill"
+        ]
+      },
+      {
+        "city": "Key Biscayne",
+        "slug": "key-biscayne-fl",
+        "state": "FL",
+        "content": "Horizon Pool Service provides specialized care for Key Biscayne's exclusive island properties. Our hurricane-preparedness services include storm-proof pool covers and post-storm debris removal. We're experts at maintaining infinity-edge pools and dealing with the unique challenges of oceanfront properties, including rapid evaporation and wind-blown sand.",
+        "localContext": "Key Biscayne's waterfront estates require pool service that accounts for extreme weather conditions.",
+        "nearbyAreas": [
+          "Miami",
+          "Coconut Grove",
+          "Fisher Island"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "weekly-maintenance": "/images/service-weekly-maintenance.webp",
+      "equipment-repair": "/images/service-equipment-repair.webp",
+      "tile-cleaning": "/images/service-tile-cleaning.webp",
+      "leak-detection": "/images/service-leak-detection.webp",
+      "automation-upgrades": "/images/service-automation-upgrades.webp"
+    },
+    "servicesResponsive": {
+      "weekly-maintenance": {
+        "src": "/images/service-weekly-maintenance.webp",
+        "srcset": "/images/service-weekly-maintenance-400w.webp 400w, /images/service-weekly-maintenance-800w.webp 800w, /images/service-weekly-maintenance-1200w.webp 1200w, /images/service-weekly-maintenance.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "equipment-repair": {
+        "src": "/images/service-equipment-repair.webp",
+        "srcset": "/images/service-equipment-repair-400w.webp 400w, /images/service-equipment-repair-800w.webp 800w, /images/service-equipment-repair-1200w.webp 1200w, /images/service-equipment-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "tile-cleaning": {
+        "src": "/images/service-tile-cleaning.webp",
+        "srcset": "/images/service-tile-cleaning-400w.webp 400w, /images/service-tile-cleaning-800w.webp 800w, /images/service-tile-cleaning-1200w.webp 1200w, /images/service-tile-cleaning.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "leak-detection": {
+        "src": "/images/service-leak-detection.webp",
+        "srcset": "/images/service-leak-detection-400w.webp 400w, /images/service-leak-detection-800w.webp 800w, /images/service-leak-detection-1200w.webp 1200w, /images/service-leak-detection.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "automation-upgrades": {
+        "src": "/images/service-automation-upgrades.webp",
+        "srcset": "/images/service-automation-upgrades-400w.webp 400w, /images/service-automation-upgrades-800w.webp 800w, /images/service-automation-upgrades-1200w.webp 1200w, /images/service-automation-upgrades.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
